@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <div>hello</div>
       <Potato />
-      <Food name = "kimchi" />
+      <Food fav = "kimchi" />
     </div>
   );
 }
