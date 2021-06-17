@@ -9,7 +9,16 @@ function ViewThis({ name, value, rating }) {
     </div>
     )
 }
-
+/**
+|--------------------------------------------------
+| 값 유효성 체크하는곳 
+| 실행이 안되는 에러가 발생하진 않으나, 
+| 유효성에 문제가 있다면 경고를 콘솔에 출력한다. 
+| 체크하고싶은 변수명 : PropsType.형식
+| 숫자면 number, 문자면 string등.
+| 값이 반드시 필요하면 isRequired를 뒤에붙이면된다. 
+|--------------------------------------------------
+*/
 ViewThis.propsTypes = {
   name: PropsTypes.string.isRequired,
   id: PropsTypes.number.isRequired,
@@ -43,6 +52,16 @@ const arrays = [
     rating: 4.1
   },
 ];
+
+/**
+|--------------------------------------------------
+| 이런식으로 넘길때, List를 넘긴다면 key를 줘야한다.
+| 실행이 안되는 에러가 발생하진 않으나,
+| key가 없다면 경고를 콘솔에 출력한다. 
+| key는 idx,즉 Primary key라고 생각하면된다. 
+|--------------------------------------------------
+*/
+
 function Redender(as) {  
   return (
     <ViewThis
