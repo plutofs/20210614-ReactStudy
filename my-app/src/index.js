@@ -1,15 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+/*
 import App from './App';
 import Props from './20210615/Props'
 import Test from './20210615/Test'
+*/
+import App from './20210617/App'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Props />
-    <Test />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
