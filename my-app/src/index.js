@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Props from './20210615/Props'
+import Test from './20210615/Test'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Props />
+    <Test />
   </React.StrictMode>,
   document.getElementById('root')
 );
