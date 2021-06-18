@@ -5,9 +5,11 @@ import './index.css';
 import App from './App';
 import Props from './20210615/Props+유효성체크(PropsTypes)'
 import Test from './20210615/생명주기'
-*/
 import App from './20210617/App'
+*/
 import reportWebVitals from './reportWebVitals';
+
+import App from './20210618/components/App';
 
 /**
 |--------------------------------------------------
