@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
-import "../Movie.css";
+import "./Movie.css";
 
 function Movie({ title, summary, poster, year, genres }) {
   useEffect(() => {

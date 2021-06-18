@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from "axios";
 import Movie from '../components/Movie';
-import "../App.css";
+import "./Home.css";
 
 //https://yts.mx/api/v2/list_movies.json
 
